@@ -13,6 +13,7 @@ Create your virtual environment, checkout project and install dependencies:
 cd {your_workfolder}
 virtualenv {virtualenv_name}
 source {virtualenv_name}/bin/activate
+git clone https://github.com/turbolink/sainsburys.git
 cd sainburys
 pip install -r requirements.txt
 ``` 

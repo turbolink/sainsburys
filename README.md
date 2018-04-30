@@ -17,14 +17,19 @@ source {virtualenv_name}/bin/activate
 cd sainburys
 pip install -r requirements.txt
 ``` 
+If the last command has problems with looking for dependencies, try to run this:
+```
+curl https://bootstrap.pypa.io/get-pip.py | python
+pip install -r requirements.txt
+```
 
-### How to run the program
+### How to run the Main program
 ```
 cd {your_workfloder}/sainburys/src
 python runner.py
 ```
 
-### How to run unit tests
+### How to run Unit tests
 ```
 cd {your_workfolder}/sainburys/src
 python -m unittest test.unit.test_runner

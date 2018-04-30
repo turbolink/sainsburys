@@ -8,10 +8,9 @@
 ### Project setup
 The program was tested with Python 2.7
 
-Create your virtual environment and install dependencies:
+Create your virtual environment, checkout project and install dependencies:
 ```
 cd {your_workfolder}
-git clone https://github.com/turbolink/sainsburys.git
 virtualenv {virtualenv_name}
 source {virtualenv_name}/bin/activate
 cd sainburys
